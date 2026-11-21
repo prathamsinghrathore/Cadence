@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Base full-bleed deep cosmic purple-to-charcoal diagonal gradient -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108">
+                <item android:offset="0.0" android:color="#FF160E24" />
+                <item android:offset="0.48" android:color="#FF0C0A12" />
+                <item android:offset="1.0" android:color="#FF1A1118" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Soft top-left cosmic violet ambient glow -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <radialGradient
+                android:centerX="12"
+                android:centerY="16"
+                android:gradientRadius="72">
+                <item android:offset="0.0" android:color="#662E1B4E" />
+                <item android:offset="0.55" android:color="#2219102B" />
+                <item android:offset="1.0" android:color="#000C0A12" />
+            </radialGradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Warm golden-amber ambient glow in the bottom-right corner (#3D2614) -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <radialGradient
+                android:centerX="98"
+                android:centerY="98"
+                android:gradientRadius="70">
+                <item android:offset="0.0" android:color="#EE5E381B" />
+                <item android:offset="0.38" android:color="#CC3D2614" />
+                <item android:offset="0.72" android:color="#44241610" />
+                <item android:offset="1.0" android:color="#000C0A12" />
+            </radialGradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle warm halo behind center equalizer note -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <radialGradient
+                android:centerX="54"
+                android:centerY="56"
+                android:gradientRadius="36">
+                <item android:offset="0.0" android:color="#2CF5A642" />
+                <item android:offset="0.55" android:color="#127A4E7A" />
+                <item android:offset="1.0" android:color="#000C0A12" />
+            </radialGradient>
+        </aapt:attr>
+    </path>
+
+</vector>

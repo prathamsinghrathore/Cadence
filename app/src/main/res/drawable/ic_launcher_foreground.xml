@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft ambient golden bloom behind the beamed equalizer note (inside 66dp safe zone) -->
+    <path android:pathData="M21,21 L87,21 L87,87 L21,87 Z">
+        <aapt:attr name="android:fillColor">
+            <radialGradient
+                android:centerX="54"
+                android:centerY="55"
+                android:gradientRadius="28">
+                <item android:offset="0.0" android:color="#38FFE8B3" />
+                <item android:offset="0.45" android:color="#1AF5A642" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </radialGradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Solid glowing slanted top beam + upper stem bridge -->
+    <path android:pathData="M48.4,41.6 L66.6,36.8 C67.7,36.5 68.6,37.3 68.6,38.4 L68.6,43.8 L51.4,48.3 L51.4,66.2 L47.2,66.2 L47.2,43.3 C47.2,42.5 47.7,41.8 48.4,41.6 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="47"
+                android:startY="37"
+                android:endX="69"
+                android:endY="66">
+                <item android:offset="0.0" android:color="#FFFFF2CC" />
+                <item android:offset="0.45" android:color="#FFFFE8B3" />
+                <item android:offset="1.0" android:color="#FFF5A642" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- ================================================================ -->
+    <!-- LEFT NOTEHEAD + EQUALIZER LED BLOCKS (x = 34.4..49.6, y = 46..75) -->
+    <!-- Warm luminous cream-gold core (#FFE8B3) -> amber (#F5A642)       -->
+    <!-- ================================================================ -->
+
+    <!-- Bright golden-cream inner core LED blocks (left note) -->
+    <path
+        android:fillColor="#FFFFE8B3"
+        android:pathData="
+            M41.8,56.5 h2.0 v1.5 h-2.0 z
+            M44.3,56.5 h2.0 v1.5 h-2.0 z
+            M46.8,56.5 h2.0 v1.5 h-2.0 z
+            M39.3,58.6 h2.0 v1.5 h-2.0 z
+            M41.8,58.6 h2.0 v1.5 h-2.0 z
+            M44.3,58.6 h2.0 v1.5 h-2.0 z
+            M46.8,58.6 h2.0 v1.5 h-2.0 z
+            M39.3,60.7 h2.0 v1.5 h-2.0 z
+            M41.8,60.7 h2.0 v1.5 h-2.0 z
+            M44.3,60.7 h2.0 v1.5 h-2.0 z
+            M46.8,60.7 h2.0 v1.5 h-2.0 z
+            M41.8,62.8 h2.0 v1.5 h-2.0 z
+            M44.3,62.8 h2.0 v1.5 h-2.0 z
+            M46.8,62.8 h2.0 v1.5 h-2.0 z
+            M44.3,64.9 h2.0 v1.5 h-2.0 z
+            M46.8,52.3 h2.0 v1.5 h-2.0 z
+            M46.8,54.4 h2.0 v1.5 h-2.0 z
+            M46.8,50.2 h2.0 v1.5 h-2.0 z" />
+
+    <!-- Rich warm amber-gold mid LED blocks (left note) -->
+    <path
+        android:fillColor="#FFF5A642"
+        android:pathData="
+            M44.3,52.3 h2.0 v1.5 h-2.0 z
+            M44.3,54.4 h2.0 v1.5 h-2.0 z
+            M41.8,54.4 h2.0 v1.5 h-2.0 z
+            M36.8,60.7 h2.0 v1.5 h-2.0 z
+            M36.8,62.8 h2.0 v1.5 h-2.0 z
+            M39.3,62.8 h2.0 v1.5 h-2.0 z
+            M36.8,64.9 h2.0 v1.5 h-2.0 z
+            M39.3,64.9 h2.0 v1.5 h-2.0 z
+            M41.8,64.9 h2.0 v1.5 h-2.0 z
+            M46.8,64.9 h2.0 v1.5 h-2.0 z
+            M39.3,67.0 h2.0 v1.5 h-2.0 z
+            M41.8,67.0 h2.0 v1.5 h-2.0 z
+            M44.3,67.0 h2.0 v1.5 h-2.0 z
+            M46.8,67.0 h2.0 v1.5 h-2.0 z
+            M41.8,69.1 h2.0 v1.5 h-2.0 z
+            M44.3,69.1 h2.0 v1.5 h-2.0 z" />
+
+    <!-- Dusk violet-plum equalizer peak & base decay blocks (#7A4E7A) (left note) -->
+    <path
+        android:fillColor="#FF7A4E7A"
+        android:pathData="
+            M44.3,48.1 h2.0 v1.5 h-2.0 z
+            M44.3,50.2 h2.0 v1.5 h-2.0 z
+            M41.8,52.3 h2.0 v1.5 h-2.0 z
+            M39.3,56.5 h2.0 v1.5 h-2.0 z
+            M36.8,58.6 h2.0 v1.5 h-2.0 z
+            M36.8,67.0 h2.0 v1.5 h-2.0 z
+            M39.3,69.1 h2.0 v1.5 h-2.0 z
+            M46.8,69.1 h2.0 v1.5 h-2.0 z
+            M41.8,71.2 h2.0 v1.5 h-2.0 z
+            M44.3,71.2 h2.0 v1.5 h-2.0 z" />
+
+    <!-- Deep cosmic purple fading tail blocks (left note) -->
+    <path
+        android:fillColor="#AA523564"
+        android:pathData="
+            M44.3,46.0 h2.0 v1.5 h-2.0 z
+            M39.3,54.4 h2.0 v1.5 h-2.0 z
+            M39.3,71.2 h2.0 v1.5 h-2.0 z
+            M41.8,73.3 h2.0 v1.5 h-2.0 z
+            M44.3,73.3 h2.0 v1.5 h-2.0 z" />
+
+    <!-- ================================================================= -->
+    <!-- RIGHT NOTEHEAD + EQUALIZER LED BLOCKS (x = 55.6..68.6, y = 44..71) -->
+    <!-- ================================================================= -->
+
+    <!-- Bright golden-cream core LED blocks (right stem & note) -->
+    <path
+        android:fillColor="#FFFFE8B3"
+        android:pathData="
+            M66.2,44.6 h2.2 v1.5 h-2.2 z
+            M66.2,46.7 h2.2 v1.5 h-2.2 z
+            M66.2,48.8 h2.2 v1.5 h-2.2 z
+            M66.2,50.9 h2.2 v1.5 h-2.2 z
+            M63.6,50.9 h2.0 v1.5 h-2.0 z
+            M66.2,53.0 h2.2 v1.5 h-2.2 z
+            M63.6,53.0 h2.0 v1.5 h-2.0 z
+            M66.2,55.1 h2.2 v1.5 h-2.2 z
+            M63.6,55.1 h2.0 v1.5 h-2.0 z
+            M61.1,55.1 h2.0 v1.5 h-2.0 z
+            M66.2,57.2 h2.2 v1.5 h-2.2 z
+            M63.6,57.2 h2.0 v1.5 h-2.0 z
+            M61.1,57.2 h2.0 v1.5 h-2.0 z
+            M66.2,59.3 h2.2 v1.5 h-2.2 z
+            M63.6,59.3 h2.0 v1.5 h-2.0 z
+            M61.1,59.3 h2.0 v1.5 h-2.0 z" />
+
+    <!-- Warm amber-gold mid LED blocks (right note) -->
+    <path
+        android:fillColor="#FFF5A642"
+        android:pathData="
+            M63.6,48.8 h2.0 v1.5 h-2.0 z
+            M58.6,55.1 h2.0 v1.5 h-2.0 z
+            M58.6,57.2 h2.0 v1.5 h-2.0 z
+            M56.1,59.3 h2.0 v1.5 h-2.0 z
+            M58.6,59.3 h2.0 v1.5 h-2.0 z
+            M56.1,61.4 h2.0 v1.5 h-2.0 z
+            M58.6,61.4 h2.0 v1.5 h-2.0 z
+            M61.1,61.4 h2.0 v1.5 h-2.0 z
+            M63.6,61.4 h2.0 v1.5 h-2.0 z
+            M66.2,61.4 h2.2 v1.5 h-2.2 z
+            M58.6,63.5 h2.0 v1.5 h-2.0 z
+            M61.1,63.5 h2.0 v1.5 h-2.0 z
+            M63.6,63.5 h2.0 v1.5 h-2.0 z
+            M66.2,63.5 h2.2 v1.5 h-2.2 z
+            M61.1,65.6 h2.0 v1.5 h-2.0 z
+            M63.6,65.6 h2.0 v1.5 h-2.0 z" />
+
+    <!-- Dusk violet-plum equalizer peak & base fade blocks (#7A4E7A) (right note) -->
+    <path
+        android:fillColor="#FF7A4E7A"
+        android:pathData="
+            M63.6,46.7 h2.0 v1.5 h-2.0 z
+            M58.6,53.0 h2.0 v1.5 h-2.0 z
+            M56.1,57.2 h2.0 v1.5 h-2.0 z
+            M56.1,63.5 h2.0 v1.5 h-2.0 z
+            M58.6,65.6 h2.0 v1.5 h-2.0 z
+            M66.2,65.6 h2.2 v1.5 h-2.2 z
+            M58.6,67.7 h2.0 v1.5 h-2.0 z
+            M61.1,67.7 h2.0 v1.5 h-2.0 z
+            M63.6,67.7 h2.0 v1.5 h-2.0 z" />
+
+    <!-- Deep cosmic purple tail blocks (right note) -->
+    <path
+        android:fillColor="#AA523564"
+        android:pathData="
+            M63.6,44.6 h2.0 v1.5 h-2.0 z
+            M56.1,65.6 h2.0 v1.5 h-2.0 z
+            M58.6,69.8 h2.0 v1.5 h-2.0 z
+            M61.1,69.8 h2.0 v1.5 h-2.0 z" />
+
+    <!-- ================================================================ -->
+    <!-- GOLDEN FOUR-POINT SPARKLES & STARDUST PARTICLES (in 66dp zone)   -->
+    <!-- ================================================================ -->
+
+    <!-- Top-right luminous 4-point star sparkle -->
+    <path
+        android:fillColor="#FFFFE8B3"
+        android:pathData="M77.5,27.2 L78.2,29.6 L80.6,30.3 L78.2,31.0 L77.5,33.4 L76.8,31.0 L74.4,30.3 L76.8,29.6 Z" />
+
+    <!-- Bottom-left luminous 4-point star sparkle -->
+    <path
+        android:fillColor="#FFFFE8B3"
+        android:pathData="M29.5,72.8 L30.1,74.8 L32.1,75.4 L30.1,76.0 L29.5,78.0 L28.9,76.0 L26.9,75.4 L28.9,74.8 Z" />
+
+    <!-- Warm golden stardust cluster (top-right) -->
+    <path
+        android:fillColor="#FFF5A642"
+        android:pathData="
+            M79.2,37.8 m-0.85,0 a0.85,0.85 0 1,0 1.7,0 a0.85,0.85 0 1,0 -1.7,0
+            M76.1,40.4 m-0.55,0 a0.55,0.55 0 1,0 1.1,0 a0.55,0.55 0 1,0 -1.1,0
+            M81.5,35.6 m-0.45,0 a0.45,0.45 0 1,0 0.9,0 a0.45,0.45 0 1,0 -0.9,0
+            M78.0,42.3 m-0.45,0 a0.45,0.45 0 1,0 0.9,0 a0.45,0.45 0 1,0 -0.9,0
+            M82.4,40.9 m-0.40,0 a0.40,0.40 0 1,0 0.8,0 a0.40,0.40 0 1,0 -0.8,0" />
+
+    <!-- Warm golden stardust cluster (bottom-left) -->
+    <path
+        android:fillColor="#FFF5A642"
+        android:pathData="
+            M31.6,69.8 m-0.75,0 a0.75,0.75 0 1,0 1.5,0 a0.75,0.75 0 1,0 -1.5,0
+            M26.2,69.2 m-0.55,0 a0.55,0.55 0 1,0 1.1,0 a0.55,0.55 0 1,0 -1.1,0
+            M33.8,72.9 m-0.50,0 a0.50,0.50 0 1,0 1.0,0 a0.50,0.50 0 1,0 -1.0,0
+            M29.1,67.3 m-0.42,0 a0.42,0.42 0 1,0 0.84,0 a0.42,0.42 0 1,0 -0.84,0
+            M32.4,76.8 m-0.40,0 a0.40,0.40 0 1,0 0.8,0 a0.40,0.40 0 1,0 -0.8,0" />
+
+</vector>
